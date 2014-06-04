@@ -21,6 +21,7 @@
 		D08FEA19193F5E36001C03FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08FE9FB193F5E36001C03FE /* UIKit.framework */; };
 		D08FEA21193F5E36001C03FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D08FEA1F193F5E36001C03FE /* InfoPlist.strings */; };
 		D08FEA23193F5E36001C03FE /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D08FEA22193F5E36001C03FE /* GitTestTests.m */; };
+		D08FEA2E193F615F001C03FE /* AJTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D08FEA2D193F615F001C03FE /* AJTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D08FEA1E193F5E36001C03FE /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		D08FEA20193F5E36001C03FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D08FEA22193F5E36001C03FE /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		D08FEA2C193F615F001C03FE /* AJTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJTest.h; sourceTree = "<group>"; };
+		D08FEA2D193F615F001C03FE /* AJTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		D08FE9EB193F5E36001C03FE = {
 			isa = PBXGroup;
 			children = (
+				D08FEA2C193F615F001C03FE /* AJTest.h */,
+				D08FEA2D193F615F001C03FE /* AJTest.m */,
 				D08FE9FD193F5E36001C03FE /* GitTest */,
 				D08FEA1C193F5E36001C03FE /* GitTestTests */,
 				D08FE9F6193F5E36001C03FE /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				D08FEA04193F5E36001C03FE /* main.m in Sources */,
 				D08FEA0E193F5E36001C03FE /* AJViewController.m in Sources */,
+				D08FEA2E193F615F001C03FE /* AJTest.m in Sources */,
 				D08FEA08193F5E36001C03FE /* AJAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
